@@ -1,0 +1,192 @@
+{
+    "informacion": {
+    "nombre_clan": "Dino II Warriors",
+    "logo": "img/logo3.png",
+    "emblema": "Fuerza de la naturaleza, valentía de los héroes.",
+    "descripcion": "Los Dino Warriors son un grupo fiero y valiente de dinosaurios humanizados con habilidades únicas y una fuerza combinada imparable en la batalla. Juntos defienden su hogar y aliados con ferocidad y determinación.",
+    "colores": {
+        "clan": "#59a952",
+        "primario": "#fff9f2",
+        "secundario": "#000"
+    }
+    },
+    "jugadores": [
+    {
+        "jugador": {
+        "rol": "secundario",
+        "id": "HW01",
+        "jugador_nombre": "Thunderclaw",
+        "raza": "Pyrospino",
+        "foto": "img/E2.jpeg",
+        "nivel": 5,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 4 },
+            { "cod": "DES", "nombre": "destreza", "valor": 5 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 5 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 2 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 8 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 2 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "lider",
+        "id": "HW03",
+        "jugador_nombre": "Flamejaw",
+        "raza": "Goliathops",
+        "foto": "img/E3.jpeg",
+        "nivel": 8,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 7 },
+            { "cod": "DES", "nombre": "destreza", "valor": 6 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 7 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 8 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 8 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 7 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "secundario",
+        "id": "HW04",
+        "jugador_nombre": "StormSkull",
+        "raza": "Pyrospino",
+        "foto": "img/E4.jpeg",
+        "nivel": 4,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 6 },
+            { "cod": "DES", "nombre": "destreza", "valor": 4 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 6 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 6 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 2 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 2 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "secundario",
+        "id": "HW05",
+        "jugador_nombre": "Rockcrusher",
+        "raza": "Tempestraptor",
+        "foto": "img/E5.jpeg",
+        "nivel": 5,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 2 },
+            { "cod": "DES", "nombre": "destreza", "valor": 3 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 4 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 8 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 8 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 2 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "secundario",
+        "id": "HW06",
+        "jugador_nombre": "Iceheart",
+        "raza": "Goliathops",
+        "foto": "img/E6.jpeg",
+        "nivel": 4,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 5 },
+            { "cod": "DES", "nombre": "destreza", "valor": 3 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 2 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 4 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 7 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 5 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "secundario",
+        "id": "HW07",
+        "jugador_nombre": "Shadowstalker",
+        "raza": "Pyrospino",
+        "foto": "img/E7.jpeg",
+        "nivel": 2,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 2 },
+            { "cod": "DES", "nombre": "destreza", "valor": 2 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 3 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 5 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 5 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 2 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "principal",
+        "id": "HW08",
+        "jugador_nombre": "Goliathops",
+        "raza": "Tempestraptor",
+        "foto": "img/E8.jpeg",
+        "nivel": 7,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 5 },
+            { "cod": "DES", "nombre": "destreza", "valor": 5 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 6 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 8 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 9 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 7 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "principal",
+        "id": "HW09",
+        "jugador_nombre": "Firespike",
+        "raza": "Tempestraptor",
+        "foto": "img/E9.jpeg",
+        "nivel": 6,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 5 },
+            { "cod": "DES", "nombre": "destreza", "valor": 5 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 7 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 8 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 6 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 5 }
+        ]
+        }
+    },
+    {
+        "jugador": {
+        "rol": "secundario",
+        "id": "HW10",
+        "jugador_nombre": "Riverrunner",
+        "raza": "Pyrospino",
+        "foto": "img/E10.jpeg",
+        "nivel": 4,
+        "habilidades": [
+            { "cod": "FUE", "nombre": "fuerza", "valor": 5 },
+            { "cod": "DES", "nombre": "destreza", "valor": 5 },
+            { "cod": "CON", "nombre": "constitucion", "valor": 7 },
+            { "cod": "INT", "nombre": "inteligencia", "valor": 4 },
+            { "cod": "SAB", "nombre": "sabiduria", "valor": 3 },
+            { "cod": "CAR", "nombre": "carisma", "valor": 5 }
+        ]
+        }
+    }
+    ],
+    "grupos": [
+    {
+        "nombre": "Dinos",
+        "integrantes": ["HW01", "HW06"]
+    },
+    {
+        "nombre": "Zafrys",
+        "integrantes": ["HW08", "HW03"]
+    },
+    {
+        "nombre": "Aldron",
+        "integrantes": ["HW04", "HW07", "HW10", "HW09"]
+    }
+    ]
+}
+  

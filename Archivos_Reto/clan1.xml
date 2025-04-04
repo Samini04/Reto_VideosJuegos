@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Plantilla.xsl" type="text/xsl"?>
+<!DOCTYPE clan>
+<clan>
+    <informacion>
+        <nombre_clan>Hornbeast Warriors</nombre_clan>
+        <logo>img/logoHW.png</logo>    
+        <emblema>"Juntos, Fuertes y Valientes"</emblema>
+        <descripcion>
+            Los Hornbeast Warriors son un grupo de guerreros valientes y fieros, liderados por Thorne, con habilidades únicas! Juntos protegerán a sus aliados ante cualquier adversidad. ¡Viva el espíritu guerrero!
+        </descripcion>
+        <colores>
+            <color tipo="clan">#D8880A</color>
+            <color tipo="primario">#ebeaea</color>
+            <color tipo="secundario">#000</color>
+        </colores>
+    </informacion>
+    <jugadores>
+        <jugador rol="principal" id="HW01"><!-- principal, secundario, lider -->
+            <jugador_nombre>Raven</jugador_nombre>
+            <raza>Lycan</raza>
+            <foto>img/A1.jpg</foto>
+            <nivel>6</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">5</habilidad>
+                <habilidad cod="DES" nombre="destreza">6</habilidad>
+                <habilidad cod="CON" nombre="constitucion">5</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">5</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">8</habilidad>
+                <habilidad cod="CAR" nombre="carisma">6</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="lider" id="HW02"><!-- principal, secundario, lider -->
+            <jugador_nombre>Thorne</jugador_nombre>
+            <raza>Minotauroide</raza>
+            <foto>img/A2.jpg</foto>
+            <nivel>8</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">9</habilidad>
+                <habilidad cod="DES" nombre="destreza">6</habilidad>
+                <habilidad cod="CON" nombre="constitucion">10</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">6</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">4</habilidad>
+                <habilidad cod="CAR" nombre="carisma">5</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="principal" id="HW03"><!-- principal, secundario, lider -->
+            <jugador_nombre>Blaze</jugador_nombre>
+            <raza>Minotauroide</raza>
+            <foto>img/A3.jpg</foto>
+            <nivel>7</nivel>
+            Debes incluir por defecto el contenido del documento HTML (plantilla web) que se proporciona junto a la hoja de estilo CSS asociada.
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">6</habilidad>
+                <habilidad cod="DES" nombre="destreza">6</habilidad>
+                <habilidad cod="CON" nombre="constitucion">7</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">6</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">4</habilidad>
+                <habilidad cod="CAR" nombre="carisma">7</habilidad>
+            </habilidades>
+        </jugador>
+
+        <jugador rol="secundario" id="HW04"><!-- principal, secundario, lider -->
+            <jugador_nombre>Shadow</jugador_nombre>
+            <raza>Lycan</raza>
+            <foto>img/A4.jpg</foto>
+            <nivel>4</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">6</habilidad>
+                <habilidad cod="DES" nombre="destreza">4</habilidad>
+                <habilidad cod="CON" nombre="constitucion">6</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">6</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">2</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW05"><!-- principal, secundario, lider -->
+            <jugador_nombre>Fang</jugador_nombre>
+            <raza>Pantirus</raza>
+            <foto>img/A5.jpg</foto>
+            <nivel>4</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">8</habilidad>
+                <habilidad cod="DES" nombre="destreza">3</habilidad>
+                <habilidad cod="CON" nombre="constitucion">8</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">2</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">2</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW06"><!-- principal, secundario, lider -->
+            <jugador_nombre>Lyca</jugador_nombre>
+            <raza>Lycan</raza>
+            <foto>img/A6.jpg</foto>
+            <nivel>5</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">5</habilidad>
+                <habilidad cod="DES" nombre="destreza">5</habilidad>
+                <habilidad cod="CON" nombre="constitucion">7</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">4</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">3</habilidad>
+                <habilidad cod="CAR" nombre="carisma">5</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW07"><!-- principal, secundario, lider -->
+            <jugador_nombre>Brawnd</jugador_nombre>
+            <raza>Minotauroide</raza>
+            <foto>img/A7.jpg</foto>
+            <nivel>5</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">7</habilidad>
+                <habilidad cod="DES" nombre="destreza">5</habilidad>
+                <habilidad cod="CON" nombre="constitucion">7</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">4</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">5</habilidad>
+                <habilidad cod="CAR" nombre="carisma">3</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW08"><!-- principal, secundario, lider -->
+            <jugador_nombre>Roze</jugador_nombre>
+            <raza>Minotauroide</raza>
+            <foto>img/A8.jpg</foto>
+            <nivel>3</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">5</habilidad>
+                <habilidad cod="DES" nombre="destreza">5</habilidad>
+                <habilidad cod="CON" nombre="constitucion">6</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">3</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">3</habilidad>
+                <habilidad cod="CAR" nombre="carisma">3</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW09"><!-- principal, secundario, lider -->
+            <jugador_nombre>Silfe</jugador_nombre>
+            <raza>Minotauroide</raza>
+            <foto>img/A9.jpg</foto>
+            <nivel>3</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">8</habilidad>
+                <habilidad cod="DES" nombre="destreza">4</habilidad>
+                <habilidad cod="CON" nombre="constitucion">7</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">2</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">3</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW10"><!-- principal, secundario, lider -->
+            <jugador_nombre>Hell</jugador_nombre>
+            <raza>Minotauroide</raza>
+            <foto>img/A10.jpg</foto>
+            <nivel>2</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">9</habilidad>
+                <habilidad cod="DES" nombre="destreza">2</habilidad>
+                <habilidad cod="CON" nombre="constitucion">8</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">1</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">1</habilidad>
+                <habilidad cod="CAR" nombre="carisma">1</habilidad>
+            </habilidades>
+        </jugador>
+    </jugadores>
+    <grupos>
+        <grupo nombre="Zucan">
+            <integrante>HW02</integrante>
+            <integrante>HW01</integrante>
+            <integrante>HW06</integrante>
+            <integrante>HW07</integrante>
+        </grupo>
+        <grupo nombre="Taurus">
+            <integrante>HW08</integrante>
+            <integrante>HW03</integrante>
+            <integrante>HW04</integrante>
+        </grupo>
+        <grupo nombre="Zeta">
+            <integrante>HW10</integrante>
+            <integrante>HW09</integrante>
+        </grupo>
+    </grupos>
+</clan>

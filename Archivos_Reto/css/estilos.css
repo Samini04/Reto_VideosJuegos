@@ -1,0 +1,303 @@
+/* HOJA DE ESTILOS CSS */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600;700;800&display=swap');
+*{margin:0;padding:0;box-sizing: border-box;scroll-behavior: smooth;}
+:root{
+    --color-primario:#fff;
+    --color-clan:#5ccd9a;
+    --color-secundario:rgb(0, 0, 0);
+    --tam-puntos: 50px;
+}
+body{
+    background-color:var(--color-clan);
+    font-family: 'Kanit', sans-serif;
+
+}
+.content{
+    width:90%;
+    margin:auto;
+}
+
+/* HEADER */
+header{
+    color:var(--color-primario);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 50px;
+    color:var(--color-secundario);
+    text-shadow: 2px 2px 3px var(--color-primario);
+}
+header img{
+    min-width: 200px;width:15vw;
+}
+.header-texto{
+    max-width: 50%;
+    padding:20px;
+}
+/* MAIN */
+main {
+    color:var(--color-secundario);
+    background-color: var(--color-primario);
+    text-align: center;
+    padding:25px 0;
+    box-shadow: 2px 2px 5px var(--color-secundario) ;
+}
+/* ###### fichas flex ###### */
+/* fichas actúa como contenedor flex
+horiontal distribuyendo cada ficha en la pág*/
+.fichas {
+    padding:0 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+/**** datos de cada ficha *****/
+.ficha{
+    /* background-color: red; */
+    text-align: center;
+    z-index:1;
+}
+.ficha img{
+    box-shadow: 2px 2px 8px rgb(0, 0, 0) ;
+}
+.ficha .picture{
+    position:relative;
+}
+.ficha h2{
+    margin-top:5px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px var(--color-clan);
+}
+.ficha h3{
+    color:var(--color-clan);
+}
+.ficha .picture .puntos{
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    position:absolute;
+    bottom:2.5%;
+    right:3%;
+    width:50px;
+    height:50px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border: 6px solid var(--color-clan);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0) ;
+    border-radius: 50%;
+    z-index:2;
+}
+.lider .picture .puntos{
+    right:3%;
+    bottom:2.5%;
+    width:calc(var(--tam-puntos)*1.2);
+    height: calc(var(--tam-puntos)*1.2);
+    border: 8px solid var(--color-clan);
+    line-height: calc(var(--tam-puntos)*0.9);
+    font-size: 25px;
+}
+.secundario .picture .puntos{
+    width:calc(var(--tam-puntos)*0.7);
+    height: calc(var(--tam-puntos)*0.7);
+    border: 4px solid var(--color-clan);
+    line-height: calc(var(--tam-puntos)*0.55);
+    right:13%;
+    bottom:3%;
+    font-size: 15px;
+}
+.puntos{
+    font-weight: bolder;
+}
+
+article{
+    padding:20px 0;
+}
+/* tipos de fichas*/
+.lider{
+    flex:0 1 400px;
+    order:2;
+}
+.lider img{
+    width:100%;
+    border: 15px solid var(--color-clan);
+    box-shadow: 4px 4px 8px  rgb(0, 0, 0)  ;
+}
+.principal{
+    flex:0 1 300px;
+}
+.principal:first-of-type{
+    order:1;
+}
+.principal:last-of-type{
+    order:3;
+}
+.principal img{
+    width:100%;
+    border: 10px solid var(--color-clan);
+}
+.secundario{
+    flex:0 1 200px;
+}
+.secundario img{
+    width:80%;
+    border: 0.4vw solid var(--color-primario);
+}
+.secundario h3{
+    color:var(--color-primario);
+}
+.miniatura img{
+    width:80%;
+    max-width: 150px;
+}
+
+/*** skill ***/
+.lider table{
+    width: 70%;
+    display:inline-table;
+}
+.principal table{
+    width:90%;
+    display:inline-table;
+}margin
+table{
+    margin:auto;
+     
+}
+table td{
+    margin:0; padding:0;
+}
+table .progress-item{
+    width: 80%;
+    padding-right: 5px;
+}
+
+  /* COLORES */
+.fondo{
+    background-color: var(--color-primario);
+}
+ .estadisticas{
+    background-color: var(--color-primario);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0) ;
+} 
+
+/* progress::-webkit-progress-value {
+    background-color: red;
+}
+progress::-moz-progress-bar {
+    background-color3: green;
+  } */
+  progress {
+    position:relative;
+    border-radius: 50%; 
+    width: 100%;
+    padding:2px;
+    height: 15px;
+  }
+  progress::-webkit-progress-bar {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  progress::-webkit-progress-value {
+    background-color: var(--color-clan);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.8);
+  }
+  progress::-moz-progress-bar{
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+  }
+  .secundario progress::-webkit-progress-value {
+    background-color: var(--color-primario);
+  }
+  /*progress::-moz-progress-bar {
+    
+  }*/
+  progress::after{
+    position:absolute;
+
+  }
+/* ### estadisticas ### */
+.estadisticas{
+    margin:20px auto;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.estadisticas h1{
+    flex:1 0 100%;
+    background-color: var(--color-secundario);
+    color:var(--color-primario);
+}
+.clasificacion{
+    /* width:20%; */
+    padding:20px;
+    text-align: left;
+}
+.clasificacion li{
+    margin-left:25px;
+}
+  
+/* ### parte final grupos ### */
+/* contiene varios grupos en disposición vertical*/
+.grupos{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--color-secundario);
+    color:var(--color-primario);
+    text-align: center;
+    width:100%;
+}
+.grupo{
+    flex:1 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+    /*flex:0 0 auto; */
+    padding:10px 10px 0;
+    color:var(--color-primario);
+}
+.grupo h2{
+    border-bottom :2px solid var(--color-clan);
+    text-shadow: 1px 1px 3px var(--color-clan);
+}
+.grupos h1, .grupo h2{
+    flex:1 0 100%;
+}
+.lista{
+    color:var(--color-primario);
+}
+footer{
+    padding:20px;
+    text-align: center;
+    background-color: var(--color-primario);
+    color:var(--color-secundario);
+}
+footer p{
+font-size: small;
+}
+@media only screen  and (max-device-width: 840px){
+    .lider{
+        order:-1;
+    }
+    header{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: auto;   
+    }
+    header h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
