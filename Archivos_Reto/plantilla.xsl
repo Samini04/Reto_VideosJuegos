@@ -121,25 +121,25 @@
     </div>
     
     <div class="content grupos">
-        <h1>Grupos del clan</h1>
-        <xsl:for-each select="clan/grupos/grupo">
-            <xsl:sort select="@nombre"/>
-            <div class="grupo">
-                <h2><xsl:value-of select="@nombre"/></h2>
-                <div class="integrantes">
-                    <xsl:for-each select="integrante">
-                        <xsl:variable name="id_jugador" select="."/>
-                        <xsl:variable name="jugador" select="//jugadores/jugador[@id=$id_jugador]"/>
-                        <div class="integrante">
-                            <img src="{$jugador/foto}" alt="{$jugador/jugador_nombre}"/>
-                            <h3><xsl:value-of select="$jugador/jugador_nombre"/></h3>
-                            <p>Nivel <xsl:value-of select="$jugador/nivel"/></p>
-                        </div>
-                    </xsl:for-each>
-                </div>
+    <h1>Grupos del clan</h1>
+    <xsl:for-each select="clan/grupos/grupo">
+        <xsl:sort select="@nombre"/>
+        <div class="grupo">
+            <h2><xsl:value-of select="@nombre"/></h2>
+            <div class="integrantes">
+                <xsl:for-each select="integrante">
+                    <xsl:variable name="id_jugador" select="."/>
+                    <xsl:variable name="jugador" select="//jugadores/jugador[@id=$id_jugador]"/>
+                    <div class="integrante">
+                        <img src="{$jugador/foto}" alt="{$jugador/jugador_nombre}"/>
+                        <h3><xsl:value-of select="$jugador/jugador_nombre"/></h3>
+                        <p>Nivel <xsl:value-of select="$jugador/nivel"/></p>
+                    </div>
+                </xsl:for-each>
             </div>
-        </xsl:for-each>
-    </div>
+        </div>
+    </xsl:for-each>
+</div>
 </body>
 </html>
 </xsl:template>
