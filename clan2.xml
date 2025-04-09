@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="plantilla.xsl" type="text/xsl"?>
+<!DOCTYPE clan>
+<clan>
+    <informacion>
+        <nombre_clan>The Loyal Warriors</nombre_clan>
+        <logo>img/logoB5.png</logo>    
+        <emblema>"Unidos en la Batalla, Inquebrantables en la Loyalty."</emblema>
+        <descripcion>The Loyal Warriors son un grupo unido y leal de perros, gatos y otros animales guerreros, con habilidades únicas y una fuerza combinada imparable en la batalla. Juntos defienden sus aliados y territorio sin temor a obstáculos.</descripcion>
+        <colores>
+            <color tipo="clan">#824242</color>
+            <color tipo="primario">#fff0ff</color>
+            <color tipo="secundario">#000</color>
+        </colores>
+    </informacion>
+    <jugadores>
+        <jugador rol="principal" id="HW01"><!-- principal, secundario, lider -->
+            <jugador_nombre>Thunderpaw</jugador_nombre>
+            <raza>Dog</raza>
+            <foto>img/B2.png</foto>
+            <nivel>6</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">7</habilidad>
+                <habilidad cod="DES" nombre="destreza">9</habilidad>
+                <habilidad cod="CON" nombre="constitucion">5</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">4</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">3</habilidad>
+                <habilidad cod="CAR" nombre="carisma">2</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="lider" id="HW02"><!-- principal, secundario, lider -->
+            <jugador_nombre>ShadowClaw</jugador_nombre>
+            <raza>Cat</raza>
+            <foto>img/B1.png</foto>
+            <nivel>7</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">5</habilidad>
+                <habilidad cod="DES" nombre="destreza">9</habilidad>
+                <habilidad cod="CON" nombre="constitucion">4</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">9</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">6</habilidad>
+                <habilidad cod="CAR" nombre="carisma">7</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW03"><!-- principal, secundario, lider -->
+            <jugador_nombre>Stormbreak</jugador_nombre>
+            <raza>Dog</raza>
+            <foto>img/B3.png</foto>
+            <nivel>6</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">3</habilidad>
+                <habilidad cod="DES" nombre="destreza">7</habilidad>
+                <habilidad cod="CON" nombre="constitucion">4</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">8</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">7</habilidad>
+                <habilidad cod="CAR" nombre="carisma">7</habilidad>
+            </habilidades>
+        </jugador>
+
+        <jugador rol="secundario" id="HW04"><!-- principal, secundario, lider -->
+            <jugador_nombre>Firefang</jugador_nombre>
+            <raza>Dog</raza>
+            <foto>img/B4.png</foto>
+            <nivel>5</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">5</habilidad>
+                <habilidad cod="DES" nombre="destreza">6</habilidad>
+                <habilidad cod="CON" nombre="constitucion">6</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">6</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">2</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW05"><!-- principal, secundario, lider -->
+            <jugador_nombre>Skypounce</jugador_nombre>
+            <raza>Dog</raza>
+            <foto>img/B5.png</foto>
+            <nivel>4</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">6</habilidad>
+                <habilidad cod="DES" nombre="destreza">6</habilidad>
+                <habilidad cod="CON" nombre="constitucion">5</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">1</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">2</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW06"><!-- principal, secundario, lider -->
+            <jugador_nombre>Rockbiter</jugador_nombre>
+            <raza>Cat</raza>
+            <foto>img/B6.png</foto>
+            <nivel>4</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">3</habilidad>
+                <habilidad cod="DES" nombre="destreza">8</habilidad>
+                <habilidad cod="CON" nombre="constitucion">4</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">5</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">3</habilidad>
+                <habilidad cod="CAR" nombre="carisma">3</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW07"><!-- principal, secundario, lider -->
+            <jugador_nombre>Riverrunner</jugador_nombre>
+            <raza>Cat</raza>
+            <foto>img/B7.png</foto>
+            <nivel>3</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">3</habilidad>
+                <habilidad cod="DES" nombre="destreza">7</habilidad>
+                <habilidad cod="CON" nombre="constitucion">3</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">2</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">4</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW08"><!-- principal, secundario, lider -->
+            <jugador_nombre>Windwhisper</jugador_nombre>
+            <raza>Bird</raza>
+            <foto>img/B8.png</foto>
+            <nivel>4</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">3</habilidad>
+                <habilidad cod="DES" nombre="destreza">10</habilidad>
+                <habilidad cod="CON" nombre="constitucion">2</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">6</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">1</habilidad>
+                <habilidad cod="CAR" nombre="carisma">4</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="secundario" id="HW09"><!-- principal, secundario, lider -->
+            <jugador_nombre>Flamepaw</jugador_nombre>
+            <raza>Bird</raza>
+            <foto>img/B9.png</foto>
+            <nivel>4</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">1</habilidad>
+                <habilidad cod="DES" nombre="destreza">8</habilidad>
+                <habilidad cod="CON" nombre="constitucion">3</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">6</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">2</habilidad>
+                <habilidad cod="CAR" nombre="carisma">5</habilidad>
+            </habilidades>
+        </jugador>
+        <jugador rol="principal" id="HW10"><!-- principal, secundario, lider -->
+            <jugador_nombre>Pica</jugador_nombre>
+            <raza>Bird</raza>
+            <foto>img/B10.png</foto>
+            <nivel>6</nivel>
+            <habilidades>
+                <habilidad cod="FUE" nombre="fuerza">3</habilidad>
+                <habilidad cod="DES" nombre="destreza">9</habilidad>
+                <habilidad cod="CON" nombre="constitucion">3</habilidad>
+                <habilidad cod="INT" nombre="inteligencia">9</habilidad>
+                <habilidad cod="SAB" nombre="sabiduria">9</habilidad>
+                <habilidad cod="CAR" nombre="carisma">6</habilidad>
+            </habilidades>
+        </jugador>
+    </jugadores>
+    <grupos>
+        <grupo nombre="Storm">
+            <integrante>HW02</integrante>
+            <integrante>HW01</integrante>
+            <integrante>HW06</integrante>
+        </grupo>
+        <grupo nombre="Arks">
+            <integrante>HW08</integrante>
+            <integrante>HW03</integrante>
+        </grupo>
+        <grupo nombre="Mix">
+            <integrante>HW04</integrante>
+            <integrante>HW07</integrante>
+            <integrante>HW10</integrante>
+            <integrante>HW09</integrante>
+        </grupo>
+    </grupos>
+</clan>

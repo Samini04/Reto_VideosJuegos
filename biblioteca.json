@@ -1,0 +1,38 @@
+{
+    "biblioteca": {
+      "libros": [
+        {
+          "categoria": "ficcion",
+          "precio": 20,
+          "titulo": "La vida está en otra parte",
+          "autor": {
+            "nombre": "Milan Kundera"
+          }
+        },
+        {
+          "categoria": "realismo",
+          "precio": 18,
+          "titulo": "Pantaleón y las visitadoras",
+          "autor": {
+            "nombre": "Mario Vargas Llosa",
+            "fechaNacimiento": "28/03/1936"
+          },
+          "fechaPublicacion": {
+            "año": 1973
+          }
+        },
+        {
+          "categoria": "ficcion",
+          "precio": 22,
+          "titulo": "Conversación en la catedral",
+          "autor": {
+            "nombre": "Mario Vargas Llosa",
+            "fechaNacimiento": "28/03/1936"
+          },
+          "fechaPublicacion": {
+            "año": 1969
+          }
+        }
+      ]
+    }
+  }
