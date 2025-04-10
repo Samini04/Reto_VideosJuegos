@@ -246,17 +246,16 @@ progress::-moz-progress-bar {
   
 /* ### parte final grupos ### */
 /* contiene varios grupos en disposición vertical*/
-.grupos{
-    padding:20px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+.grupos {
+    padding: 20px;
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     background-color: var(--color-secundario);
-    color:var(--color-primario);
+    color: var(--color-primario);
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 .grupo{
     flex:1 0 auto;
