@@ -25,7 +25,7 @@
       <p>{{informacion.descripcion}}</p>
     </div>
   </header>
-
+  <!-- Sección principal: Miembros del clan -->
   <main class="content">
     <h1>Miembros del clan</h1>
     <div class="fichas">
@@ -61,7 +61,7 @@
   <!-- Sección secundaria (jugadores secundarios) -->
   <div class="content fichas">
     {{#each jugadores}}
-      {{#if (eq jugador.rol "secundario")}}
+      {{#if (eq jugador.rol "secundario")}} <!-- Filtra jugadores secundarios -->
         <article class="ficha secundario">
           <!-- ... misma estructura que los principales ... -->
         </article>
@@ -76,8 +76,8 @@
       <div class="grupo">
         <h2>{{nombre}}</h2>
         <div class="integrantes">
-          {{#each integrantes}}
-            {{#with (lookup ../jugadores this)}}
+          {{#each integrantes}} <!-- Itera sobre los integrantes del grupo -->
+            {{#with (lookup ../jugadores this)}} <!-- Busca al jugador dentro de la lista de jugadores -->
               <div class="integrante">
                 <img src="{{jugador.foto}}" alt="{{jugador.jugador_nombre}}" />
                 <h3>{{jugador.jugador_nombre}}</h3>
