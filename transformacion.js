@@ -31,7 +31,7 @@ Handlebars.registerHelper('get', function (obj, key) {
 const jsonData = JSON.parse(fs.readFileSync('Clan3.json', 'utf8'));
 
 // Leer la plantilla Handlebars (.hbr)
-const plantilla = fs.readFileSync('platillaClan.hbr', 'utf8');
+const plantilla = fs.readFileSync('plantillaClan.hbr', 'utf8');
 
 // Compilar plantilla
 const template = Handlebars.compile(plantilla);
