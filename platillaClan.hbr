@@ -7,44 +7,87 @@
   <link rel="stylesheet" href="css/estilos.css" />
   <style>
     :root {
-      --color-clan: #59a952;
-      --color-primario: #fff9f2;
-      --color-secundario: #000;
+      --color-clan: {{informacion.colores.clan}};
+      --color-primario: {{informacion.colores.primario}};
+      --color-secundario: {{informacion.colores.secundario}};
     }
   </style>
-  <title>{{nombre}}</title>
+  <title>{{informacion.nombre_clan}}</title>
 </head>
 <body>
   <header class="content">
     <div class="picture">
-      <img src="{{logo}}" alt="Logo del clan" />
+      <img src="{{informacion.logo}}" alt="Logo del clan" />
     </div>
     <div class="header-texto">
-      <h1>{{nombre}}</h1>
-      <h2>{{emblema}}</h2>
-      <p>{{descripcion}}</p>
+      <h1>{{informacion.nombre_clan}}</h1>
+      <h2>{{informacion.emblema}}</h2>
+      <p>{{informacion.descripcion}}</p>
     </div>
   </header>
 
-  <main class="personajes">
-    {{#each personajes}}
-    <section class="personaje-card">
-      <h3>{{nombre}}</h3>
-      <img src="{{imagen}}" alt="Imagen de {{nombre}}" />
-      <p>Raza: {{raza}}</p>
-      <p>Clase: {{clase}}</p>
-      <p>Descripción: {{descripcion}}</p>
-
-      <h4>Habilidades:</h4>
-      <ul>
-        {{#each habilidades}}
-          <li>{{@key}}: {{this}}</li>
-        {{/each}}
-      </ul>
-
-      <p>Total habilidades: {{SumarHabilidades (values habilidades)}}</p>
-    </section>
-    {{/each}}
+  <main class="content">
+    <h1>Miembros del clan</h1>
+    <div class="fichas">
+      {{#each jugadores}}
+        {{#if (or (eq jugador.rol "lider") (eq jugador.rol "principal"))}}
+          <article class="ficha {{jugador.rol}}">
+            <div class="picture">
+              <img src="{{jugador.foto}}" alt="{{jugador.jugador_nombre}}" />
+              <div class="puntos">
+                {{SumarHabilidades jugador.habilidades}}
+              </div>
+            </div>
+            <h2>{{jugador.jugador_nombre}}</h2>
+            <h3>Nivel {{jugador.nivel}} - {{jugador.raza}}</h3>
+            <table class="skills-table">
+              <tr><th colspan="3">Habilidades</th></tr>
+              {{#each jugador.habilidades}}
+                <tr>
+                  <td>{{cod}}:</td>
+                  <td class="progress-item">
+                    <progress max="10" value="{{valor}}"></progress>
+                  </td>
+                  <td>{{valor}}</td>
+                </tr>
+              {{/each}}
+            </table>
+          </article>
+        {{/if}}
+      {{/each}}
+    </div>
   </main>
+
+  <!-- Sección secundaria (jugadores secundarios) -->
+  <div class="content fichas">
+    {{#each jugadores}}
+      {{#if (eq jugador.rol "secundario")}}
+        <article class="ficha secundario">
+          <!-- ... misma estructura que los principales ... -->
+        </article>
+      {{/if}}
+    {{/each}}
+  </div>
+
+  <!-- Grupos del clan -->
+  <div class="content grupos">
+    <h1>Grupos del clan</h1>
+    {{#each grupos}}
+      <div class="grupo">
+        <h2>{{nombre}}</h2>
+        <div class="integrantes">
+          {{#each integrantes}}
+            {{#with (lookup ../jugadores this)}}
+              <div class="integrante">
+                <img src="{{jugador.foto}}" alt="{{jugador.jugador_nombre}}" />
+                <h3>{{jugador.jugador_nombre}}</h3>
+                <p>Nivel {{jugador.nivel}}</p>
+              </div>
+            {{/with}}
+          {{/each}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
 </body>
 </html>
